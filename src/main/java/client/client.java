@@ -1,4 +1,4 @@
-﻿package client;
+package client;
 
 /**
  * Created by Ксения on 12.12.2016.
@@ -62,7 +62,7 @@ public class client {
                 elemJson.put("version", line.split(",")[2]);
                 ar.put(elemJson);
             } catch (Exception ex) {
-                continue; 
+                continue;
             }
 
         }
